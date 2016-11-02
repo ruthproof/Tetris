@@ -1,0 +1,16 @@
+/**
+ * List of all possible directions in the game of Tetris
+ * 
+ * (an enum (enumeration) is a convenient way to group constants that are
+ * related. It also ensures that all variables of type Direction will have a
+ * value equal to one of the constants.)
+ * 
+ * see https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+ * 
+ * @author CSC 143
+ *
+ */
+public enum Direction {
+	// Added DROP and UP to Direction to implement when needed
+	LEFT, RIGHT, DOWN, UP, DROP, ROTATE
+}
